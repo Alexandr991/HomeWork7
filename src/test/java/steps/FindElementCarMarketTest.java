@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import static com.codeborne.selenide.Selenide.$x;
 import static com.codeborne.selenide.Selenide.actions;
 
-public class FindElementCarMarket {
+public class FindElementCarMarketTest {
     private final SelenideElement carMarket = $x("//span[@class='b-main-navigation__text' and text()='Автобарахолка']");
 
     @And("Наводим курсор на пункт Автобарахолка")
